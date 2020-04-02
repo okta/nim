@@ -16,5 +16,8 @@
   },
   "devDependencies": {
     "lerna": "3.3.2"
+  },
+  "resolutions": {
+    "@lerna/publish": "3.3.2"
   }
 }
