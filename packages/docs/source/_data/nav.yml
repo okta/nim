@@ -19,6 +19,7 @@
   #'card': '/components/card.html'
   'checkbox': '/components/checkbox.html'
   #'dropdown': '/components/dropdown.html'
+  'flex': '/components/flex.html'
   'form': '/components/form.html'
   'link': '/components/link.html'
   #'meter': '/components/meter.html'
