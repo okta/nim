@@ -1,3 +1,5 @@
+/* ods-flex */
+
 .ods-flex {
   box-sizing: border-box;
   display: flex;
@@ -61,4 +63,35 @@
 
 .ods-flex--wrap-wrap-reverse {
   flex-wrap: wrap-reverse;
+}
+
+/* ods-flex-item */
+
+.ods-flex-item {
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+
+.ods-flex-item--align-start {
+  align-self: flex-start;
+}
+
+.ods-flex-item--align-end {
+  align-self: flex-end;
+}
+
+.ods-flex-item--align-center {
+  align-self: center;
+}
+
+.ods-flex-item--align-stretch {
+  align-self: stretch;
+}
+
+.ods-flex-item--grow {
+  flex-grow: 1;
+}
+
+.ods-flex-item--shrink {
+  flex-shrink: 1;
 }
