@@ -11,11 +11,12 @@
   "scripts": {
     "docs": "yarn --cwd packages/docs start",
     "icons": "yarn --cwd packages/odyssey-icons svgo",
+    "storybook": "yarn workspace @okta/odyssey-storybook run storybook",
     "lerna-version": "lerna version --no-git-tag-version --force-publish",
     "prelerna-publish": "lerna run build",
     "lerna-publish": "lerna publish from-package --no-push --force-publish --no-verify-access --no-verify-registry",
-    "lint": "eslint . --ext .js,.vue && stylelint ./*.scss", 
-    "test": "yarn lint" 
+    "lint": "eslint . --ext .js,.vue && stylelint ./*.scss",
+    "test": "yarn lint"
   },
   "devDependencies": {
     "eslint": "^7.9.0",
